@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --radius: 8px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.container input {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 2.5em;
+    border: 1px solid gray;
+}
+
+.addieren {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Rechnen button {
+    width: 92%;
+    padding: 20px;
+    margin-top: 25px;
+    margin: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.Rechnen button:hover {
+    background-color: rgb(78, 74, 74);
+}
