@@ -1,0 +1,49 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    
+    input {
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        outline: none;
+        border: 3px solid rgb(223, 219, 219);
+    }
+    
+    button {
+        width: 400px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        outline: none;
+        border: 2px solid #ccc;
+        background-color: rgb(202, 118, 16);
+        cursor: pointer;
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .box2 {
+        width: 200px;
+    }
